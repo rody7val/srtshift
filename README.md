@@ -25,14 +25,14 @@ Clonar el repositorio:
 ```bash
 git clone https://github.com/tuusuario/srtshift.git
 cd srtshift
-chmod +x srtshift
+chmod +x srtshift.sh
 ```
 
 O instalarlo en todo el sistema:
 
 ```bash
 sudo cp srtshift /usr/local/bin/
-sudo chmod +x /usr/local/bin/srtshift
+sudo chmod +x /usr/local/bin/srtshift.sh
 ```
 
 ## Uso
