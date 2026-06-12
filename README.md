@@ -23,7 +23,7 @@ Ideal cuando encuentras el archivo de subtítulos correcto, pero está desfasado
 Clonar el repositorio:
 
 ```bash
-git clone https://github.com/tuusuario/srtshift.git
+git clone https://github.com/rody7val/srtshift
 cd srtshift
 chmod +x srtshift.sh
 ```
