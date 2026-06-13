@@ -31,7 +31,7 @@ chmod +x srtshift.sh
 O instalarlo en todo el sistema:
 
 ```bash
-sudo cp srtshift /usr/local/bin/
+sudo cp srtshift.sh /usr/local/bin/
 sudo chmod +x /usr/local/bin/srtshift.sh
 ```
 
@@ -40,13 +40,13 @@ sudo chmod +x /usr/local/bin/srtshift.sh
 Avanzar los subtítulos 2 segundos:
 
 ```bash
-srtshift up 2 movie.srt
+srtshift.sh up 2 movie.srt
 ```
 
 Retroceder los subtítulos 1,5 segundos:
 
 ```bash
-srtshift down 1.5 movie.srt
+srtshift.sh down 1.5 movie.srt
 ```
 
 El archivo de salida se creará como:
@@ -60,8 +60,8 @@ El archivo original permanece sin cambios.
 ## Ejemplos
 
 ```bash
-srtshift up 0.8 episode.srt
-srtshift down 3.25 subtitle.srt
+srtshift.sh up 0.8 episode.srt
+srtshift.sh down 3.25 subtitle.srt
 ```
 
 ## Licencia
